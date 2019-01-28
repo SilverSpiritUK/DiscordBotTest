@@ -2,9 +2,12 @@
 	"name": "silverbot",
 	"version": "1.0.0",
 	"description": "Test Bot",
-	"main": "bot.js",
+	"main": "annonymousquestionbot.js",
 	"author": "Me",
 	"dependencies": {
 		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6"
+	},
+	"scripts": {
+		"start": "node annonymousquestionbot.js"
 	}
 }
