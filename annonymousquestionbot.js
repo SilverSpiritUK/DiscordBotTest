@@ -2,7 +2,7 @@
 //https://github.com/babel/babel-loader/issues/84
 
 var Discord = require('discord.io');
-var auth = require('./auth.json');
+//var auth = require('./auth.json');
 //var botinfo = require('./bot.json');
 var question = undefined;
 var silver = undefined;
@@ -10,7 +10,7 @@ var silver = undefined;
 // Initialize Discord Bot
 var bot = new Discord.Client(
 	{
-		token: auth.token,
+		token: process.env.TOKEN,
 		autorun: true
 	}
 );
